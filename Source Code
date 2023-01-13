@@ -1,0 +1,36 @@
+– Input the string “Python” as a list of characters from console, delete at least 2 characters, reverse the
+resultant string and print it.
+
+str1 = "Python"; #Assigning 
+replacedStr = str1.replace("Pyt",""); #Deleting characters/replacing with NULL
+print(replacedStr[::-1]); #Reversing a string
+
+Take two numbers from user and perform at least 4 arithmetic operations on them.
+
+num1= int(input("Enter First Number:"));
+num2= int(input("Enter Second Number:"));
+print(num1+num2); #Addition
+print(num1-num2); #Substraction
+print(num1*num2); #Multiplication
+print(num1/num2); #Division
+
+Write a program that accepts a sentence and replace each occurrence of ‘python’ with ‘pythons’.
+
+str1 = "I love playing with python";
+print(str1.replace('python','pythons')); #Replacing
+
+Use the if statement conditions to write a program to print the letter grade based on an input class score. Use
+the grading scheme we are using in this class.
+
+score = int(input("Enter your score:")); #Taking input score from the user
+#if-elif-else suite to check the grade for the given score
+if score >= 90 and score <=100:
+    print("A Grade");
+elif score >= 80 and score <=89:
+    print("B Grade");
+elif score >= 70 and score <=79:
+    print("C Grade");
+elif score >= 60 and score <=69:
+    print("D Grade");
+else:
+    print("F Grade");
